@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="Style/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="stopwatch">
+      <p id="display">00:00:00</p>
+      <div class="container2">
+        <div class="btn" id="startStop" onclick="startStop()"><a href="#">Start</a></div>
+        <div class="btn" id="menuBtn" ><a href="#">Menu</a></div>
+        <div id="sidebar">
+            <ul>
+              <div class="menu-heading">
+                <h2>B-Tasker</h2>
+                <hr>
+              </div>
+              <li>
+                <a href="#"><i class="fas fa-music"></i> Play Music</a>
+                <ul class="submenu">
+                  <li><a href="#"><i class="fas fa-add"></i>Add Song</a></li>
+                  <li><a href="#"><i class="fas fa-soundcloud"></i>Open Playlist</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-plus"></i> Add Task</a>
+                <ul class="submenu">
+                  <li><a href="#">New Task</a></li>
+                  <li><a href="#">Task List</a></li>
+                  <!-- Add more sub-options as needed -->
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-lock"></i> Private Locker</a>
+                <ul class="submenu">
+                  <li><a href="#">Lock 1</a></li>
+                  <li><a href="#">Lock 2</a></li>
+                  <li><a href="#">Lock 3</a></li>
+                  <!-- Add more sub-options as needed -->
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-stopwatch"></i> Stop Watch</a>
+                <ul class="submenu">
+                  <li><a href="#">Timer</a></li>
+                  <li><a href="#">Countdown</a></li>
+                  <!-- Add more sub-options as needed -->
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-user"></i> Account</a>
+                <ul class="submenu">
+                  <li><a href="#">Profile</a></li>
+                  <li><a href="#">Settings</a></li>
+                  <!-- Add more sub-options as needed -->
+                </ul>
+              </li>
+              <!-- Add other main menu options -->
+            </ul>
+          </div>
+          
+          
+      </div>
+    </div>
+  </div>
+  <script src="JS/main.js"></script>
+</body>
+</html>
